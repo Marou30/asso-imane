@@ -1,0 +1,52 @@
+@font-face{
+	font-family: 'whiteonblack';
+	src: url('whiteonblack.ttf');
+}
+
+/* BODY */
+
+
+body
+{
+	background-image: url('fond_ecran.jpg') ;
+	background-size: 100% 100%;
+	background-position: bottom;
+	text-align: center;
+  display: flex;
+  flex-direction: column;
+ 
+	 }
+
+	 /*couleur fond #008037*/
+	
+
+a
+{
+  display: inline-block;
+  background-color: none;
+  border-radius: 10px;
+  border: 5px whitesmoke;
+  border-style: ridge;
+  box-shadow: 6px 6px 3px black;
+  color: white;
+  text-align: center;
+  font-size: 28px;
+  padding: 20px;
+  width: 200px;
+  cursor: pointer;
+  margin-top: 3%;
+  text-decoration: none;
+   
+}
+
+
+
+
+/*RESPONSIVE DESIGN*/
+
+@media screen and (max-width: 1280px)
+{
+  body{align-items: center; margin-top: 50vh; transform: translateY(-50%); background-image: url('fond_ecran_mobile.png') }
+ img{ align-items: flex-start; width: 100%; height: 100%;}
+
+}
