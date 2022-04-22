@@ -125,6 +125,20 @@ nav ul a
   margin: 0px auto;
 }
 
+footer /*FOOTER*/
+{background-color: #008037;
+  margin-top: 1%;
+height: 100px;
+display: flex;
+align-items: flex-end;
+justify-content: center;}
+
+.copyright
+{
+color: white;
+}
+
+
 
 
 
