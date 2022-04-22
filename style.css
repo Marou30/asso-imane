@@ -124,25 +124,23 @@ nav ul a
 {
   display: flex;
   flex-direction: column;
-  border-bottom: ridge;
   padding-bottom: 3%;
 }
 
 
-#informations p
+footer /*FOOTER*/
+{background-color: #008037;
+  margin-top: 1%;
+height: 100px;
+display: flex;
+align-items: flex-end;
+justify-content: center;}
+
+.copyright
 {
-  text-align: justify;
+color: white;
 }
 
-#informations img
-{
-  height: 250px;
-}
-
-#map iframe
-{
-  text-align: center;
-}
 
 
 
