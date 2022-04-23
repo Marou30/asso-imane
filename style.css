@@ -75,7 +75,7 @@ nav ul
   list-style-type: none;
 }
 
-nav ul li
+nav ul a
 {
   font-size: 2em;
     padding-bottom: 3px;
