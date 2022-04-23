@@ -217,11 +217,11 @@ nav li {
   margin: 0;
   
 }
-li:hover{
+li a:hover{
   color:black;
 }
 
-nav ul a
+nav ul li a
 {
       padding-bottom: 3px;
     text-decoration: none;
