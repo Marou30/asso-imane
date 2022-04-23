@@ -55,6 +55,9 @@ text-decoration: underline;
 
 }
 
+.bouton
+{visibility: hidden;}
+
 
 /* NAV */
 
@@ -88,6 +91,11 @@ nav ul li a
   visibility: hidden;
   width: 100px;
   height: 100px;
+}
+
+label, #toggle
+{
+    display: none;
 }
 
 /* Banniere*/
@@ -161,31 +169,19 @@ color: white;
  header{display: flex; flex-direction: row;}
  /*nav ul{display:flex; flex-wrap: wrap; flex-direction: column; justify-content: space-around; text-align: center;}*/
  
-/* header{
-  position: absolute;
-}*/
-
-#logo
+/*#logo
 {
   flex-grow: 2;
-}
+}*/
 
 #icon-menu{
-  visibility: visible;
- 
-}
+  visibility: visible;}
+  
 nav img
 {
   width: 50px;
   height: 50px;
 }
-
-
-nav{
-  text-align: right;
-  
-}
-
 
 #icon-menu:active{
   visibility: visible;
@@ -233,10 +229,34 @@ nav ul a
     color: white;
 }
 
+.bouton{
+  visibility: visible;
+  flex-grow: 2;
+  margin-left: 10%;
+  margin-right: 10%;
+  text-align: center;
 }
 
+.bouton a
+{
+   
+  display: inline-block;
+    background-color: #008037;
+    border-radius: 30%;
+    border: 5px #008037;
+    border-style: groove;
+    box-shadow: 6px 6px 3px black;
+    color: white;
+    text-align: center;
+    font-size: 28px;
+    padding: 20px;
+    width: 150px;
+    cursor: pointer;
+    margin-top: 3%;
+    text-decoration: none;
+}
 
+}
 
- /*#logo img {width: 70px; height: 70px; flex: 1 100%;}*/
 
 
